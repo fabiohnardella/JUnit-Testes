@@ -1,28 +1,29 @@
 package FontesAppCalculadora;
 
 public class CalculadoraAritmetica {
-	private int resultadoConta;
+	private double resultadoConta;
 	
-	public int somar(int numero1, int numero2) {
+	public double somar(double numero1, double numero2) {
 		resultadoConta = numero1 + numero2;
 		return resultadoConta;
 	}
 	
-	public int subtrair(int numero1, int numero2) {
+	public double subtrair(double numero1, double numero2) {
 		resultadoConta =  numero1 - numero2;
 		return resultadoConta;
 	}
 	
-	public int multiplicar(int numero1, int numero2) {
+	public double multiplicar(double numero1, double numero2) {
 		resultadoConta = numero1 * numero2;
 		return resultadoConta;
 	}
 	
-	public int dividir(int numero1, int numero2) {
+	public double dividir(double numero1, double numero2) {
 		resultadoConta =  numero1 / numero2;
 		return resultadoConta;
 	}
 	
+
 	
 	
 }
